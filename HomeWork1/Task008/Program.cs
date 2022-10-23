@@ -6,7 +6,7 @@ int count = 1;
 Console.WriteLine("Введите число A:");
 int A = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Чётные числа от 1 до " + A);
+
 while (count <= A)
 {
     if (count % 2 == 0)
@@ -15,9 +15,10 @@ while (count <= A)
     }
     count++;
 }
+Console.WriteLine("- чётные числа от 1 до " + A);
 if (A <= 1)
 {
-    Console.WriteLine("Нет чётных чисел!");
+    Console.WriteLine("Введите число больше 1");
 }
 
 
