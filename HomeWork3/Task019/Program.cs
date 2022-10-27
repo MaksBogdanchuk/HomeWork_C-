@@ -5,7 +5,7 @@
 // 23432 -> да
 
 Console.WriteLine("Введите положительное пятизначное число, а мы определим является ли число палиндромом");
-string numFive = Console.ReadLine();
+string numFive = Console.ReadLine()!;
 int len = numFive.Length;
 
 if (len == 5)
