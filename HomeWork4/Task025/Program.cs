@@ -20,4 +20,4 @@ int ReadInt(string message)
 int numA = ReadInt("Введите число A: ");
 int numB = ReadInt("Введите число B: ");
 int result = 1;
-Console.WriteLine(ToDegree(numA, numB, result));
+Console.WriteLine($"Число A = {numA} в степени числа B = {numB}, равно {ToDegree(numA, numB, result)}");
