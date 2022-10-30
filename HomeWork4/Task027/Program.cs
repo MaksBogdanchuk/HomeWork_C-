@@ -18,10 +18,12 @@ int NumberLen(int a)
 
 int SumNumbers(int n, int len, int sum)
 {
-    for (int i = 1; i <= len; i++)
+    int i = 1;
+    while (i <= len)
     {
         sum += n % 10;
         n /= 10;
+        i++;
     }
     return sum;
 }
